@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Helvetica Neue", Georgia, serif;
+    background: url('rec5.png') no-repeat;
+    background-size: cover;
+
+}
+button[type="submit"]{
+    background: #00008B;
+    border: none;
+    color: white;
+}
+/*.............................................................................................
+top nav bar styling
+...............................................................................................*/
+ul{
+    width: 100%;
+    height: 10vh;
+    background-color: sienna;
+    color: white;
+}
+li{
+    display:inline-block;
+}
+
+/*.........................................................................................................
+body content
+............................................................................................................*/
+.atop{
+    padding:20px 0 0 70px;
+    display: inline-block;
+    color: white;
+}
+.logut{
+    float: right;
+}
+.hold{
+    margin: 20px 80px 80px 80px;
+    border-radius: 10px;
+    border: solid;
+    height: 640px;
+    background-color: transparent;
+
+}
+.side_bar{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    height: 640px;
+    overflow: hidden;
+    background-color: #1A1A1D;
+    border: solid;
+    color: white;
+    border-radius: 10px 0 0 10px;
+    z-index: 1;
+}
+.logo{
+    width:100%;
+    height: 10%;
+    background-color: #87CEFA;
+    border-bottom: solid;
+}
+.side_bar>input{
+    width:90%;
+    text-align: right;
+    margin: 10px 0 0 10px;
+    border-radius: 5px;
+    height:30px;
+    font-family: FontAwesome;
+}
+.side_bar>.alink{
+    padding: 8px 0 8px 40px;
+    margin-left:20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    width:80%;
+}
+.side_bar>a:hover{
+    background-color: black;
+    border-radius: 5px;
+}
+.link_buttons{
+    width: 100%;
+    text-align: left;
+    border: solid;
+    background-color: transparent;
+    z-index: -1;
+}
+.link_buttons>button{
+    float: left;
+}
+/*.service_options{
+    background-color: transparent;
+    width: 100%;
+    height:10% ;
+    border: solid;
+}*/
+
+.bodycontent{
+    background-color: transparent;
+    border-radius: 0 10px 10px 0;
+    display: inline-block;
+    float: left;
+    width: 80%;
+    height: 640px;
+    color: black;
+    z-index: -1;
+    border: solid white;
+    border-left: none;
+
+}
+.head{
+    width:100%;
+    height: 15%;
+}
+h4{
+    padding: 20px 0 0 20px;
+    color: white;
+}
+.head>button{
+    margin: 7px 0 0 0;
+    border: none;
+    outline: none;
+}
+.one{
+    display: block;
+    border-bottom:10px solid #d9d9d9;
+}
+.undone {
+    display: block;
+    width: 100%;
+    height: 85%;
+    border: solid white;
+}
+.normal{
+    font-size: large;
+    padding-left: 10px;
+    text-align: left;
+}
+.arrowDown{
+    width: 0;
+    height: 0;
+    margin: auto;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid green;
+    display:none;
+}
+.arrowleft{
+    width: 0;
+    height: 0;
+    float: right;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #000000;
+    border-bottom: 15px solid transparent;
+}
+
+
+/*...........................................................................................................
+footer styling
+............................................................................................................*/

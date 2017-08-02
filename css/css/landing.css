@@ -1,0 +1,287 @@
+*{
+	margin:0;
+	padding: 0;
+}
+ul{
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    color: white;
+    padding: 0 3vh 0 3vh;
+    width: 100%;
+    height: 15%;
+    z-index: 10;
+
+}
+.logo{
+    display: inline-block;
+}
+.right{
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    margin: 0 4vh 0 4vh;
+    padding: 5vh 0 0 0 ;
+    text-align: right;
+    display: inline-block;
+}
+.right li{
+    display: inline-block;
+    margin: 0 2vh 0 0 ;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.signlogin{
+    position: relative;
+    border-radius: 5px;
+    display:inline-block;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border: solid thin;
+    font-family: "Helvetica Neue", Georgia, serif;
+    cursor: pointer;
+}
+.loginbtn2{
+    background-color: transparent;
+    outline: none;
+
+}
+.signupbtn{
+    background-color: cadetblue;
+}
+#login-btn{
+    background-color: skyblue;
+    outline: none;
+}
+
+/*.....................................................................................................*/
+body{
+    font-family: "Helvetica Neue", Georgia, serif;
+    color: black;
+}
+.outside{
+    width: 100%;
+    height: 100%;
+}
+.home-page{
+    position: fixed;
+    top:15%;
+    height:100vh;
+    width: 100%;
+    background: url("typewriter.jpg") no-repeat;
+    background-size: cover;
+}
+.inner-home{
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 100vh;
+}
+.home-page>img{
+    margin: 25vh 0 0 0;
+}
+.bodycontent{
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    height: 100vh;
+}
+.what-we-do {
+    background-color: #0e78aa;
+    width: 100%;
+    height: 70vh;
+}
+.holder{
+    position: relative;
+    top: 8vh;
+    width: 50%;
+    height: 70%;
+    margin:auto;
+}
+.what-we-do>h3{
+    display: block;
+    width: 50vh;
+    margin: auto;
+    padding: 10vh 0 0 0;
+}
+.se{
+    float: left;
+    background-color: inherit;
+    color: white;
+    padding: 20px 15px 10px 15px;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Axure Handwriting";
+}
+.se>.icon{
+    margin: auto;
+    display: block;
+    border: solid thin;
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+    padding: 5vh 0 0 0;
+}
+.se>p{
+    text-align: center;
+    border-top: solid thin;
+}
+
+/*....................................................................................................*/
+.contactUs{
+    height: 100vh;
+    width: 100%;
+    border: solid thin gainsboro;
+    background-color: gainsboro;
+}
+.inTouch{
+    width: 65%;
+    height: 90%;
+    margin:auto;
+
+}
+.inTouch>h2{
+    color: black;
+    margin: 5vh 0 0 0;
+}
+.inTouch>input{
+    border-radius: 5px;
+    width: 63.5vh;
+    padding: 1.5vh;
+    border: none;
+}
+.inTouch>#phone,#First-name{
+    margin: 3vh 4vh 0 0 ;
+}
+.inTouch>#email,#Last-name{
+    margin: 3vh 0 0 0 ;
+    float: right;
+
+}
+.inTouch>.other{
+    margin:  0 0 0 3vh;
+}
+.inTouch>textarea{
+    border-radius:5px ;
+    padding: 1.5vh;
+    border: none;
+    margin:3vh auto;
+}
+.inTouch>button{
+    width: 20%;
+    border-radius: 5px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 2vh 11vh 0 0;
+    float: right;
+}
+
+.inner-what-we-do{
+    position: relative;
+    top: 20px;
+    width:90%;
+    height: 55vh;
+    margin: auto;
+    padding: 0 0 0 12vh;
+}
+.with-input-fields{
+    display: none;
+    padding: 0 10px 0 10px;
+}
+.logininfo{
+    display: none;
+}
+.holderlogin>.inputlg{
+    margin: 2vh 0 3vh 0;
+}
+.holderlogin{
+    width: 100%;
+    height: 80%;
+}
+a, body .ui-widget-content a{
+    color:dodgerblue;
+
+}
+.signup>input{
+    margin:10px 0  10px 0;
+    height:30px;
+    border-radius: 5px;
+    padding:5%;
+}
+/*....................................................................................................*/
+.footer{
+    width: 100%;
+    height: 20vh;
+    color: white;
+    background-color: #000000;
+    padding: 2%;
+}
+.footerRight{
+    margin:3vh 0 0 0 ;
+    width: 50vh;
+    float: right;
+    text-align: right;
+    color: white;
+}
+.footerRight>li{
+    display: inline-block;
+}
+.footerRight>li a{
+    text-decoration: none;
+    color:white ;
+    margin: 0 0 0 3vh;
+
+}
+.ui-dialog .ui-dialog-title{
+    text-align: center;
+    color: white;
+
+}
+.ui-dialog .ui-dialog-titlebar{
+    background-color: rgba(13, 122, 208, 0.56);
+
+}
+.uname{
+    padding-top: 10%;
+}
+.miscellaneous{
+    text-align: center;
+}
+#sub{
+    background-color: rgba(30, 144, 255, 0.58);
+    color: white;
+}
+.divide{
+    border-top: solid thin;
+    height:60% ;
+    text-align: justify;
+}
+/*.......................................................................................
+styling for icons
+..........................................................................................*/
+.fa-google-plus{
+	background-color: #d34836;
+	color: #fff;
+}
+.fa-twitter{
+	background-color: #00aced;
+	color: #fff;
+}
+.fa-facebook{
+	background-color:#3b5998;
+	color: #fff;
+}
+/*.............................................................................................*/

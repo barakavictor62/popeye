@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    position: fixed;
+    top: 0;
+    background-color: inherit;
+    padding: 0;
+    width: 100%;
+    z-index: 10;
+    float: right;
+    height:10vh ;
+}
+ul li>button{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+li{
+    margin: 25px 0 0 0;
+    font-family: "Trebuchet MS";
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+.toleft{
+    float: right;
+}
+body{
+    background-color: #0e78aa;
+    text-align: center;
+}
+.overall{
+    width:85vh ;
+    height: 95vh;
+    margin: 0 0 0 10vh;
+    display: inline-block;
+}
+.Contact-form{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.79);
+    text-align: center;
+    width: 90vh;
+    height: 80vh;
+    margin: 11vh auto;
+    padding: 20px 0 0 0;
+    box-shadow: 5px 5px 5px black;
+}
+.inner-contact-form{
+    margin: 20px 0 0 0 ;
+}
+.inner-contact-form>input{
+    position: relative;
+    height: 30px;
+    border: none;
+    /*border-radius: 5px;*/
+    border-bottom: solid thin white;
+    margin:10px auto;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+}
+.inner-contact-form> button{
+    width: 93%;
+    height: 40px;
+    border: none;
+    margin: 35px 0 0 0 ;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+}
+.name{
+    width: 92%;
+    margin: auto;
+
+}
+.name>input{
+    height: 30px;
+    border: none;
+    border-bottom: solid thin white;
+    /*border-radius: 5px;*/
+    padding: 5px;
+    background-color: transparent;
+
+}
+#First-name{
+    width: 46%;
+}
+#Last-name{
+    width: 47%;
+}
+.other{
+    width: 88%;
+    display: block;
+    margin:10px auto;
+    border: solid thin;
+   /* border-radius: 5px;*/
+
+}
+textarea{
+    width: 90%;
+    border: none;
+    border-bottom: solid thin white;
+    background-color: transparent;
+    /*border-radius: 5px;*/
+    padding: 5px;
+}
+::placeholder{
+    color: white;
+}
+
+.Contact-form>h2{
+    font-family: "Lucida Calligraphy";
+}
+.icons{
+    text-align: center;
+    width:80vh ;
+    height: 20vh;
+    border: solid;
+    margin: auto;
+}
+.sicons{
+    font-weight: 900;
+    margin:0 10px 10px 10px;
+    position: relative;
+    top: 110px;
+    padding: 25px 27px 27px 27px;
+    text-decoration: none;
+    text-align: center;
+    border: solid;
+    width: 2vh;
+    height: 2vh;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.58);
+}
+.fa-google-plus{
+    background-color: #d34836;
+    color: white;
+    border: none;
+}
+.fa-twitter{
+    background-color: #00aced;
+    color: white;
+    border: none;
+}
+.fa-facebook{
+    background-color:#3b5998;
+    color: white;
+    border: none;
+}
+.more-contacts{
+    width: 55vh;
+    height: 70vh;
+    display: inline-block;
+    float: right;
+    margin: 11vh 21vh 0 0 ;
+    text-align: left;
+}
+.more-contacts>i{
+    margin:0 10px 10px 10px;
+    position: relative;
+    top: 50px;
+    padding: 25px 27px 27px 27px;
+    text-decoration: none;
+    text-align: center;
+    border: solid white;
+    width: 2vh;
+    height: 2vh;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.58);
+}
+.weighted{
+    font-weight: 900;
+
+}
+.more-con-inner{
+    font-weight: 900;
+    position: relative;
+    top: 50px;
+    color: white;
+}
+.social-media{
+    border-bottom: solid thin;
+    width: 100%;
+    position: relative;
+    top: 90px;
+    color: white;
+}
+
+/*..........................
